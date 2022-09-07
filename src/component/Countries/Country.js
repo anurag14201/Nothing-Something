@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from 'react';
+import Countries from '../Country/Countries';
 
 const Country = () => {
     const [countries, setCountries] = useState([]);
@@ -17,7 +18,7 @@ const Country = () => {
                     I am Here!!Country:{countries.length}
                 </h1>
                 {
-                    countries.map(country => console.log(country))
+                    countries.map(country => <Countries name={country.name.common}></Countries>)
                 }
             </div>
         </div>
