@@ -1,7 +1,12 @@
 .country {
     border: 3px solid maroon;
     border-radius: 20px;
+
     margin: 20px;
-    background-color: lightblue;
+    background-color: bisque;
     padding: 10px;
+}
+
+.country img {
+    width: 150px;
 }
