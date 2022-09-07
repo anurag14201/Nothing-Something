@@ -18,7 +18,9 @@ const Country = () => {
                     I am Here!!Country:{countries.length}
                 </h1>
                 {
-                    countries.map(country => <Countries name={country.name.common}></Countries>)
+                    countries.map(country => <Countries
+                        country={country}
+                    ></Countries>)
                 }
             </div>
         </div>
